@@ -80,7 +80,6 @@ public class Server {
         String result = game.getGameResult(moveOne, moveTwo);
 
         System.out.println("Resultado: " + result);
-        System.out.println("Resultado: " + Results.EMPATE.toString());
 
         if (result == "0") {
             connection.send(playerOne, Results.EMPATE.toString());
