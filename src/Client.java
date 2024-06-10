@@ -19,7 +19,7 @@ public class Client {
 
     public static void main(String[] args) {
         System.out.println("*!BEM VINDO AO JOGO!*");
-        System.out.println("No Jokempô, cada jogador escolhe entre Pedra (0), Papel (1) ou Tesoura (2). " +
+        System.out.println("No Jokempô, cada jogador escolhe entre Pedra, Papel ou Tesoura. " +
                 "Pedra vence Tesoura, Tesoura vence Papel e Papel vence Pedra. " +
                 "\nOs jogadores digitam o número correspondente à sua escolha e o vencedor é determinado " +
                 "com base nessas regras");
